@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgb4"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/xiugaipm_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="请输入您要修改拍卖用户的编号:"
+        android:textColor="#f00"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/xiugaipm_edno"
+            android:layout_width="220dip"
+            android:layout_height="wrap_content"
+            android:hint="请输入拍卖者编号"
+            android:textSize="18sp" >
+        </EditText>
+
+        <Button
+            android:id="@+id/btnxiugaipm"
+            android:layout_width="80dip"
+            android:layout_height="40dip"
+            android:text="确定" >
+        </Button>
+    </LinearLayout>
+	
+     <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+			android:id="@+id/xiugaipm_name"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="18sp"
+			android:text="用户名：">
+	   </TextView>
+		<EditText
+			android:id="@+id/xiugaipm_edname"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:textSize="18sp"
+			android:hint="请输入用户名">
+		</EditText>        
+      </LinearLayout>
+      
+	   <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+			android:id="@+id/xiugaipm_pwd"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="18sp"
+			android:text="密码：">
+	   </TextView>
+		<EditText
+			android:id="@+id/xiugaipm_edpwd"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:textSize="18sp"
+			android:password="true"
+			android:hint="请输入密码">
+		</EditText>        
+      </LinearLayout>
+      
+	    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+			android:id="@+id/xiugaipm_phone"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="18sp"
+			android:text="电话 ：">
+	   </TextView>
+		<EditText
+			android:id="@+id/xiugaipm_edphone"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:textSize="18sp"
+			android:hint="请输入电话号码">
+		</EditText>        
+      </LinearLayout>
+      
+	     <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+			android:id="@+id/xiugaipm_email"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="18sp"
+			android:text="邮箱：">
+	   </TextView>
+		<EditText
+			android:id="@+id/xiugaipm_edemail"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:textSize="18sp"
+			android:hint="请输入邮箱">
+		</EditText>        
+      </LinearLayout>
+      
+	      <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+			android:id="@+id/xiugaipm_realname"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="18sp"
+			android:text="姓名 ：">
+	   </TextView>
+		<EditText
+			android:id="@+id/xiugaipm_edrealname"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:textSize="18sp"
+			android:hint="请输入姓名">
+		</EditText>        
+      </LinearLayout>
+      
+	       <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+			android:id="@+id/xiugaipm_addreass"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="18sp"
+			android:text="地址  ：">
+	   </TextView>
+		<EditText
+			android:id="@+id/xiugaipm_edaddress"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:textSize="18sp"
+			android:hint="请输入地址 ">
+		</EditText>        
+      </LinearLayout>
+      
+	       <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+			android:id="@+id/xiugaipm_post"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="18sp"
+			android:text="邮编  ：">
+	   </TextView>
+		<EditText
+			android:id="@+id/xiugaipm_edpost"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:textSize="18sp"
+			android:hint="请输入邮编">
+		</EditText>        
+      </LinearLayout>
+      
+	       <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+			android:id="@+id/xiugaipm_credit"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="18sp"
+			android:text="信用度  ：">
+	   </TextView>
+		<EditText
+			android:id="@+id/xiugaipm_edcredit"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:textSize="18sp"
+			android:hint="请输入认证等级 ">
+		</EditText>        
+      </LinearLayout>
+      
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingTop="20dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_xiugaipm"
+            android:layout_width="80dip"
+            android:layout_height="40dip"
+            android:text="修改" >
+        </Button>
+
+        <Button
+            android:id="@+id/btn_xiugaipmcancel"
+            android:layout_width="80dip"
+            android:layout_height="40dip"
+            android:layout_marginLeft="15dip"
+            android:text="取消" >
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/bg4">
+    
+	 <TextView
+        android:id="@+id/shanchupm_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textSize="18sp"
+        android:textColor="#f0f"
+        android:text="请输入您要删除拍卖用户的编号:" />
+     <EditText
+			android:id="@+id/shanchupm_no"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:textSize="18sp"
+			android:hint="请输入拍卖用户编号">
+	</EditText>
+
+      <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingTop="50dp">
+        <Button
+			android:id="@+id/btn_shanchupm"
+			android:layout_width="80dip"
+			android:layout_height="40dip"
+			android:text="删除">
+	   </Button>
+	   <Button 
+		    android:id="@+id/btn_shanchupmCancel" 
+		    android:layout_width="80dip"
+			android:layout_height="40dip" 
+			android:layout_marginLeft="30dip"
+			android:text="取消" >
+		</Button>      
+	
+      </LinearLayout>
+</LinearLayout>

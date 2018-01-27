@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bj11"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/delete_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="请输入您要修改商品的编号:"
+        android:textColor="#f00"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/update_edno"
+            android:layout_width="220dip"
+            android:layout_height="wrap_content"
+            android:hint="请输入商品编号"
+            android:textSize="18sp" >
+        </EditText>
+
+        <Button
+            android:id="@+id/btnupdate"
+            android:layout_width="80dip"
+            android:layout_height="40dip"
+            android:text="确定" >
+        </Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/update_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="商品名称："
+            android:textSize="18sp" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/update_edname"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入商品名称"
+            android:textSize="18sp" >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/update_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="商品描述："
+            android:textSize="18sp" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/update_eddesc"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入商品描述"
+            android:textSize="18sp" >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/update_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="商品起始价 ："
+            android:textSize="18sp" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/update_edprice"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入商品起始价"
+            android:textSize="18sp" >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/update_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="商品状态："
+            android:textSize="18sp" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/update_edstatus"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入商品状态"
+            android:textSize="18sp" >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/update_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="商品数量："
+            android:textSize="18sp" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/update_ednumber"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入商品数量"
+            android:textSize="18sp" >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/update_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="商品上货时间 ："
+            android:textSize="18sp" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/update_edtime"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入商品上货时间"
+            android:textSize="18sp" >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/update_ID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="拍卖者昵称 ："
+            android:textSize="18sp" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/update_edID"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入拍卖者昵称"
+            android:textSize="18sp" >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingTop="20dp" >
+
+        <Button
+            android:id="@+id/btn_update"
+            android:layout_width="80dip"
+            android:layout_height="40dip"
+            android:text="修改" >
+        </Button>
+
+        <Button
+            android:id="@+id/btn_updatecancel"
+            android:layout_width="80dip"
+            android:layout_height="40dip"
+            android:layout_marginLeft="15dip"
+            android:text="取消" >
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>

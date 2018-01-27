@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/bj3"
+    android:paddingTop="5dp">
+    
+	 <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+			android:id="@+id/widget1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="18sp"
+			android:text="用户名称 ：">
+	   </TextView>
+		<EditText
+			android:id="@+id/ed_registeruserName"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:textSize="18sp"
+			android:hint="请输入用户名">
+		</EditText>        
+      </LinearLayout>
+   
+      <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp">
+        <TextView
+			android:id="@+id/widget2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="18sp"
+			android:text="用户密码 ：">
+	   </TextView>
+		<EditText
+			android:id="@+id/ed_registerPwd"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:textSize="18sp"
+			android:hint="建议设置6位以上密码"
+			android:password="true">
+		</EditText>       
+      </LinearLayout>
+   
+	 <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp">
+        <TextView
+			android:id="@+id/widget3"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="18sp"
+			android:text="确认密码  :">
+	   </TextView>
+		<EditText
+			android:id="@+id/ed_registerRePwd"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:textSize="18sp"
+			android:hint="请再次输入密码"
+			android:password="true">
+		</EditText>       
+      </LinearLayout>
+    
+	 <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp">
+        <TextView
+			android:id="@+id/widget4"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="18sp"
+			android:text="手机号码  :">
+	   </TextView>
+		<EditText
+			android:id="@+id/ed_registerUserMoblePhone"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:textSize="18sp"
+			android:numeric="integer"
+			android:hint="请填写您的手机号码">
+		</EditText>
+          
+      </LinearLayout>
+ 
+	 <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp">
+        <TextView
+			android:id="@+id/widget5"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="18sp"
+			android:text="电子邮箱  :">
+	   </TextView>
+	   <EditText
+			android:id="@+id/ed_registerUserEmail"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:textSize="18sp"
+			android:hint="请填写您的常用邮箱">
+		</EditText>
+          
+      </LinearLayout>
+      
+	  <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp">
+        <TextView
+			android:id="@+id/widget6"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="18sp"
+			android:text="您的姓名  :">
+	   </TextView>
+	   <EditText
+			android:id="@+id/ed_registerUserRealName"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:textSize="18sp"
+			android:hint="请填写您的真实姓名">
+		</EditText>
+          
+      </LinearLayout>
+      
+	   <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp">
+        <TextView
+			android:id="@+id/widget7"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="18sp"
+			android:text="您的地址  :">
+	   </TextView>
+	   <EditText
+			android:id="@+id/ed_registerUserAddress"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:textSize="18sp"
+			android:hint="请填写您的收货住址">
+		</EditText>
+          
+      </LinearLayout>
+      
+	    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp">
+        <TextView
+			android:id="@+id/widget8"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="18sp"
+			android:text="您的邮编  :">
+	   </TextView>
+	   <EditText
+			android:id="@+id/ed_registerUserPostNumber"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:textSize="18sp"
+			android:hint="请填写您的邮政编号">
+		</EditText>
+          
+      </LinearLayout>
+      
+	     <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp">
+        <TextView
+			android:id="@+id/widget9"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="18sp"
+			android:text="信  用  度  :">
+	   </TextView>
+	   <EditText
+			android:id="@+id/ed_registerUserCredit"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:textSize="18sp"
+			android:hint="请填写您已经获得的认证">
+		</EditText>
+      </LinearLayout>
+      
+
+	 <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingTop="15dp">
+        <Button
+			android:id="@+id/btn_Register"
+			android:layout_width="80dip"
+			android:layout_height="40dip"
+			android:text="注册">
+	   </Button>
+	   <Button 
+		    android:id="@+id/btn_RegisterCancel" 
+		    android:layout_width="80dip"
+			android:layout_height="40dip" 
+			android:layout_marginLeft="10dip"
+			android:text="取消" >
+		</Button>      
+	
+      </LinearLayout>
+</LinearLayout>
+
+

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="operate">
+		<item>查询待售商品</item>
+		<item>添加待售商品</item>
+		<item>修改待售商品</item>
+		<item>删除待售商品</item>
+		
+		<item>查询拍卖用户</item>
+		<item>添加拍卖用户</item>
+		<item>修改拍卖用户</item>
+		<item>删除拍卖用户</item>
+		
+		<item>查询竞标用户</item>
+		<item>添加竞标用户</item>
+		<item>修改竞标用户</item>
+		<item>删除竞标用户</item>
+	</string-array>
+</resources>

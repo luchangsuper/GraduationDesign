@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bj10"
+    android:orientation="vertical" >
+	<LinearLayout
+		android:orientation="horizontal"
+		android:gravity="center"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="@dimen/sub_title_margin">
+		<TextView
+			android:id="@+id/textview_index"
+			android:text="@string/search"	
+			android:textSize="@dimen/label_font_size"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+		 <Button
+            android:id="@+id/index_mingzi"
+            android:layout_width="120dip"
+            android:layout_height="40dip"
+            android:layout_marginLeft="20dip"
+            android:text="按商品名称" />
+		
+	</LinearLayout>
+	<!-- 查看商品列表的ListView -->
+	<ListView
+		android:id="@+id/listview_index"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"/>
+</LinearLayout>

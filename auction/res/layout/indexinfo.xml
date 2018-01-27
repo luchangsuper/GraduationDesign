@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/tu3">
+	
+     <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/hello"
+        android:paddingTop="15dip"
+        android:scaleType="fitCenter"
+        android:src="@drawable/logo" />
+    
+    <TextView
+		android:text="系统用户个人信息查询/修改"
+		android:id="@+id/TextView"
+		android:textSize="@dimen/label_font_size"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:textColor="#f00"
+		android:textStyle="bold|italic"
+		android:padding="@dimen/title_padding"/>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical"
+    	android:gravity="center"
+    	android:paddingTop="10dip">
+
+        <Button
+            android:id="@+id/pminfo_index"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dip"
+            android:background="#0f0"
+            android:text="查询拍卖用户个人信息" />
+    
+    <Button
+		android:id="@+id/pminfo_update" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:background="#f00"
+		android:layout_marginTop="20dip"
+		android:text="修改拍卖用户个人信息"/>
+    
+    <Button
+		android:id="@+id/jpinfo_index" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:background="#ff0"
+		android:layout_marginTop="20dip"
+		android:text="查询竞拍用户个人信息"/>
+    
+    <Button
+		android:id="@+id/jpinfo_update" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:background="#0ff"
+		android:layout_marginTop="20dip"
+		android:text="修改竞拍用户个人信息"/>
+    </LinearLayout>
+</LinearLayout>

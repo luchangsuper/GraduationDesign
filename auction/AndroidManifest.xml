@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bysj.auction"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.bysj.auction.Start"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.bysj.auction.Tongzhi" android:label="系统通知"></activity>
+        <activity android:name="com.bysj.time.Fabutime_saler" android:label="发布拍卖截止时间"></activity>
+        <activity android:name="com.bysj.time.TimeInfo" android:label="拍卖截止时间查询"></activity>
+        <activity android:name="com.bysj.function.Editjingpai" android:label="修改竞标用户信息"></activity>
+        <activity android:name="com.bysj.function.Editpaimai" android:label="修改拍卖用户信息"></activity>
+        <activity android:name="com.bysj.function.IndexInfo_jp" android:label="竞标用户信息查询"></activity>
+        <activity android:name="com.bysj.function.IndexInfo_pm" android:label="拍卖用户信息查询"></activity>
+        <activity android:name="com.bysj.function.IndexInfo" android:label="用户信息查询"></activity>
+        <activity android:name="com.bysj.bid.BidedIndex" android:label="查询已竞拍商品"></activity>
+        <activity android:name="com.bysj.operate.Chaxunsp_mz" android:label="管理员@string/nameindex"></activity>
+        <activity android:name="com.bysj.util.High_price" android:label="查询最高出价"></activity>
+        <activity android:name="com.bysj.bid.Bid" android:label="参与竞标"></activity>
+        <activity android:name="com.bysj.operate.Xiugaisp" android:label="管理员修改商品信息"></activity>
+        <activity android:name="com.bysj.operate.Xiugaipm" android:label="管理员修改拍卖用户"></activity>
+        <activity android:name="com.bysj.operate.Xiugaijp" android:label="管理员修改竞拍用户"></activity>
+        <activity android:name="com.bysj.operate.Tianjiasp" android:label="管理员添加商品信息"></activity>
+        <activity android:name="com.bysj.operate.Tianjiapm" android:label="管理员添加拍卖用户"></activity>
+        <activity android:name="com.bysj.operate.Tianjiajp" android:label="管理员添加竞拍用户"></activity>
+        <activity android:name="com.bysj.operate.Shanchusp" android:label="管理员删除商品信息"></activity>
+        <activity android:name="com.bysj.operate.Shanchupm" android:label="管理员删除拍卖用户"></activity>
+        <activity android:name="com.bysj.operate.Shanchujp" android:label="管理员删除竞拍用户"></activity>
+         <activity android:name="com.bysj.operate.Chaxunsp" android:label="管理员查询商品信息"></activity>
+        <activity android:name="com.bysj.operate.Chaxunpm" android:label="管理员查询拍卖用户"></activity>
+        <activity android:name="com.bysj.operate.Chaxunjp" android:label="管理员查询竞拍用户"></activity>
+        <activity android:name="com.bysj.manager.ManagerOperate" android:label="管理员操作"></activity>
+        <activity android:name="com.bysj.auction.Manager" android:label="管理员入口"></activity>
+        <activity android:name="com.bysj.auction.MainActivity" android:label="@string/start"/>
+        <activity android:name="com.bysj.login.LoginApp" android:label="@string/login"/>
+        <activity android:name="com.bysj.function.Function" android:label="@string/function"/>
+        <activity android:name="com.bysj.function.Index" android:label="@string/searches"/>
+        <activity android:name="com.bysj.register.Register" android:label="@string/user_register"></activity>
+        <activity android:name="com.bysj.register.RegisterBid" android:label="@string/user_registerbid"></activity>
+        <activity android:name="com.bysj.sale.Sale" android:label="@string/sale_function"></activity>
+        <activity android:name="com.bysj.sale.Sale_add" android:label="@string/add_item_title"></activity>
+        <activity android:name="com.bysj.sale.Sale_delete" android:label="@string/delete_item"></activity>
+        <activity android:name="com.bysj.sale.Sale_update" android:label="@string/update_item"></activity>
+        <activity android:name="com.bysj.sale.SaledIndex" android:label="@string/saledsearches"></activity>
+        <activity android:name="com.bysj.function.Index_mz" android:label="@string/nameindex"></activity>
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+</manifest>
